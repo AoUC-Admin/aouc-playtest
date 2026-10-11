@@ -1,0 +1,23 @@
+name: Suggestion
+description: Suggest an improvement or discuss a game issue.
+title: "[Suggestion]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Please keep tester links and personal files private. A suggestion is not a promised feature."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What player experience should improve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your suggestion
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Game version, if relevant
