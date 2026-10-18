@@ -4,3 +4,5 @@
 
 /* Compact studio attribution shared by every public page. */
 .studio-credit{margin-top:24px}.studio-credit img{display:block;width:280px;max-width:100%;height:auto}.studio-credit p{margin:8px 0 0;color:var(--muted);font-size:12px}
+
+.update-gallery{display:grid;gap:28px;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr))}.update-gallery figure{margin:0}.update-gallery img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:6px}.update-gallery figcaption{color:var(--muted);font-size:15px;line-height:1.6;margin-top:10px}
